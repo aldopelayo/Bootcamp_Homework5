@@ -44,17 +44,20 @@ textarea {
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: rgb(7, 7, 7);
+  height: 100px;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: rgb(2, 2, 2);
+  height: 100px;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: rgb(2, 2, 2);
+  height: 100px;
 }
 
 .saveBtn {
@@ -68,4 +71,8 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+aside {
+  background-color: beige;
+  align-content: center;
 }
